@@ -1,0 +1,29 @@
+.main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: gainsboro;
+  position: relative;
+}
+
+.Sidebar_home {
+  margin-top: 10px;
+  float: left;
+}
+
+.Navigationbar_home {
+  height: 10vh;
+  width: 95%;
+  padding: 10px;
+  margin-left: 4%;
+}
+
+.cards_home {
+  width: 95%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 1%;
+  
+}

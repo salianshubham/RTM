@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 95vh;
+  color: #fff;
+  overflow: hidden;
+  transition: all 0.5s linear;
+  background: rgba(113, 99, 186, 255);
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.Hamburger_icon {
+  color: white;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.menu {
+  height: 88%;
+  position: relative;
+  list-style: none;
+  margin-left: 10px;
+}
+
+.menu li {
+  padding: 0rem;
+  margin: 8px 0;
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu :hover,
+.active {
+  background: #e0e0e058;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.menu a span {
+  overflow: hidden;
+}
+
+.logout {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.sidebar_home {
+  position: absolute;
+  left: 0;
+  
+}
+
+.sidebar:hover {
+  width: 200px;
+  transition: 0.5s;
+}
+
+/* ******************************************* */
+
+@media only screen and (max-width: 600px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+  }
+
+  .sidebar {
+    position: absolute;
+    top: 1.3%;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 7vh;
+    color: #fff;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    background: #fff;
+    margin-left: 15px;
+    border-radius: 5px 0px 0px 5px;
+  }
+
+  .Hamburger_icon {
+    color: rgba(113, 99, 186, 255);
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .menu {
+    height: 50%;
+    position: relative;
+    list-style: none;
+    margin-left: 10px;
+  }
+
+  .menu li {
+    padding: 0rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+
+  }
+
+  .menu :hover,
+  .active {
+    background: #e0e0e058;
+  }
+
+  .menu a {
+    margin-top: 10px;
+    color: rgba(113, 99, 186, 255);
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+  }
+
+  .menu a span {
+    overflow: hidden;
+  }
+
+  .logout {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+  }
+
+  .sidebar_home {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .sidebar:hover {
+    width: 200px;
+    height: 200px;
+    transition: width 0.2s, height 0.2s;
+    display: block;
+    border-radius: 10px;
+  }
+
+  .sidebar:hover .logout {
+    bottom: 0;
+    left: 0;
+    visibility: visible;
+  }
+}

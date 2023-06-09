@@ -1,0 +1,67 @@
+.navigation_parent {
+    display: flex;
+}
+
+.navigation {
+    height: 7vh;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.blackfroglogo {
+    float: left;
+    height: 100%;
+    width: 5%;
+    margin-left: 2%;
+}
+
+.blackfroglogo_img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.blackfrogHeading {
+    margin-top: 10px;
+    color: rgba(113, 99, 186, 255);
+}
+
+
+
+/* ******************************************* */
+
+@media only screen and (max-width: 600px) {
+    .navigation_parent {
+        display: flex;
+        margin-left: 10%;
+    }
+
+    .navigation {
+        height: 7vh;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    .blackfroglogo {
+        float: left;
+        height: 100%;
+        width: 15%;
+        margin-left: 2%;
+    }
+
+    .blackfroglogo_img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .blackfrogHeading {
+        margin-top: 10px;
+        color: rgba(113, 99, 186, 255);
+        font-size: 150%;
+        object-fit: contain;
+    }
+
+}

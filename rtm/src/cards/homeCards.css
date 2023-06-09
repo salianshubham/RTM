@@ -1,0 +1,177 @@
+.homeCard_parent {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 3%;
+}
+
+.homeCard_outer_div {
+    display: flex;
+}
+
+.homeCard_outer_div div:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.homeCard_outer_div h1{
+    color: rgba(113, 99, 186, 255);
+    font-size: 80px;
+}
+.total_center {
+    background-color: rgb(254, 226, 254);
+    width: 50%;
+    height: 150px;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.total_center_icon {
+    height: 80px;
+    width: 50px;
+    float: right;
+    border-radius: 50px;
+    background-color: rgba(113, 99, 186, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: #fff;
+}
+
+.total_center h4 {
+    color: rgba(113, 99, 186, 255);
+}
+
+.temperature_violation {
+    background-color: rgb(254, 226, 254);
+    width: 50%;
+    height: 150px;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.temperature_violation h4 {
+    color: rgba(113, 99, 186, 255);
+}
+
+.door_violation {
+    background-color: rgb(235, 254, 234);
+    width: 50%;
+    height: 150px;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.door_violation h4 {
+    color: rgba(113, 99, 186, 255);
+
+}
+
+.battery_violation {
+    background-color: rgb(236, 236, 254);
+    width: 50%;
+    height: 150px;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.battery_violation h4 {
+    color: rgba(113, 99, 186, 255);
+}
+
+
+/* ********************************************* */
+
+@media only screen and (max-width: 600px) {
+    .homeCard_parent {
+        width: 100%;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-left: 1%;
+    }
+    
+    .homeCard_outer_div {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .homeCard_outer_div div:hover {
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
+    .homeCard_outer_div h1{
+        color: rgba(113, 99, 186, 255);
+        font-size: 80px;
+    }
+    .total_center {
+        background-color: rgb(254, 226, 254);
+        width: 80%;
+        height: 150px;
+        padding: 10px;
+        margin: 40px;
+        border-radius: 10px;
+    }
+    
+    .total_center_icon {
+        height: 80px;
+        width: 50px;
+        float: right;
+        border-radius: 50px;
+        background-color: rgba(113, 99, 186, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 100px;
+        color: #fff;
+    }
+    
+    .total_center h4 {
+        color: rgba(113, 99, 186, 255);
+    }
+    
+    .temperature_violation {
+        background-color: rgb(254, 226, 254);
+        width: 80%;
+        height: 150px;
+        padding: 10px;
+        margin: 40px;
+        border-radius: 10px;
+    }
+    
+    .temperature_violation h4 {
+        color: rgba(113, 99, 186, 255);
+    }
+    
+    .door_violation {
+        background-color: rgb(235, 254, 234);
+        width: 80%;
+        height: 150px;
+        padding: 10px;
+        margin: 40px;
+        border-radius: 10px;
+    }
+    
+    .door_violation h4 {
+        color: rgba(113, 99, 186, 255);
+    
+    }
+    
+    .battery_violation {
+        background-color: rgb(236, 236, 254);
+        width: 80%;
+        height: 150px;
+        padding: 10px;
+        margin: 40px;
+        border-radius: 10px;
+    }
+    
+    .battery_violation h4 {
+        color: rgba(113, 99, 186, 255);
+    }
+    
+
+}
