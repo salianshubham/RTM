@@ -11,14 +11,14 @@ const homecard = () => {
           <ImLocation2 className='card_icon' />
         </div>
         <h4>Total Center</h4>
-        <h1>0</h1>
+        <h1>13</h1>
       </div>
       <div className='temperature_violation'>
         <div className='total_center_icon'>
           <CiTempHigh className='card_icon' />
         </div>
         <h4>Temperature violation</h4>
-        <h1>0</h1>
+        <h1>3</h1>
       </div>
       <div className='door_violation'>
         <div className='total_center_icon'>

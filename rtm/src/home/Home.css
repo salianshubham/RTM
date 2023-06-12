@@ -9,21 +9,17 @@
 }
 
 .Sidebar_home {
-  margin-top: 10px;
   float: left;
 }
 
 .Navigationbar_home {
-  height: 10vh;
-  width: 95%;
-  padding: 10px;
-  margin-left: 4%;
+  height: 7vh;
+  width: 100%;
 }
 
 .cards_home {
-  width: 95%;
+  width: 100%;
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 1%;
-  
 }

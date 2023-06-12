@@ -14,13 +14,13 @@ const Sidebar = () => {
       <li className="sidebar_home">
         <a href="/home" >
         <AiIcons.AiFillHome className="sidebar_Home_icon"/>
-        <span>HOME</span>
+        <span>Home</span>
         </a>
       </li>
       <li className="logout">
         <a href="/home">
         <BiIcons.BiLogOutCircle  />
-        <span>LOGOUT</span>
+        <span>Logout</span>
         </a>
       </li>
     </ul>

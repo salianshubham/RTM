@@ -3,31 +3,52 @@
 }
 
 .navigation {
-    height: 7vh;
+    height: 5vh;
     width: 100%;
     background-color: #fff;
-    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .blackfroglogo {
-    float: left;
     height: 100%;
-    width: 5%;
+    width: 12%;
     margin-left: 2%;
 }
 
 .blackfroglogo_img {
     height: 100%;
-    width: 100%;
-    object-fit: contain;
+    float: left;
 }
 
 .blackfrogHeading {
-    margin-top: 10px;
-    color: rgba(113, 99, 186, 255);
+    margin-top: 7px;
+    color: #000;
+    font-size: 150%;
+    float: left;
 }
 
+.homepage_login_icon_div {
+    width: 110px;
+    display: flex;
+    margin-left: 70%;
+}
+.userName{
+    margin-top: 7px;
+    color: #000;
+    font-size: 150%;
+    float: left;
+}
 
+.homepage_login_icon {
+    height: 35px;
+    width: 40px;
+    background-color: #000;
+    border-radius: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
 
 /* ******************************************* */
 

@@ -1,55 +1,77 @@
 .centerTable_parent {
     width: 100%;
-    height: 52vh;
+    height: 60vh;
     background-color: #fff;
     border-radius: 10px;
-    margin-top: 20px;
-    margin-left: 3%;
+    margin-top: 20px; 
 }
 
 .Centers_add_center_button_div {
     display: flex;
-    justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .Centers_add_center_button_div h3 {
-    color: rgba(113, 99, 186, 255);
+    color: #000;
 }
 
 .add_center_button {
-    height: 50px;
-    width: 150px;
-    background-color: rgba(113, 99, 186, 255);
-    justify-content: end;
+    margin-top: -1px;
+    height: 35px;
+    width: 100px;
+    background-color: #000;
+    margin-left: 60%;
     border-radius: 10px;
     color: #fff;
+    font: 1em sans-serif;
+}
 
+.search_centers {
+    margin-left: 1%;
+    margin-top: -6px;
+    height: 35px;
+    width: 25%;
+    border: 2px solid #000;
+    border-radius: 10px;
     font: 1em sans-serif;
 }
 
 .centerTable_content {
     display: flex;
+    
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 10px;
-
+    margin: 5px;
 }
 
 thead {
-    background-color: rgba(113, 99, 186, 255);
+    background-color: gray;
     color: #fff;
-    height: 7vh;
+    height: 2vh;
     border-radius: 10%;
-
+    border: 2px solid gray;
 }
 
 th {
     padding: 15px;
     text-align: left;
+    border: 2px solid gray;
+}
+td{
+    border: 2px solid gray;
+}
+.Details_button{
+    height: 30px;
+    width: 70px;
+    background-color: gray;
+    color: #fff;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    
 }
